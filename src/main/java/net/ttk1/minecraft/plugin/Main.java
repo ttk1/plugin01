@@ -63,7 +63,7 @@ public class Main extends JavaPlugin{
     		String uid = event.getPlayer().getUniqueId().toString();
     		if (plg.mode.get(uid) == 1 && event.getAction() == Action.RIGHT_CLICK_BLOCK) {
     			event.getClickedBlock().setType(Material.DIAMOND_BLOCK);
-        		event.getPlayer().sendMessage("This block changed to DIAMOND BLOCK!");
+        		event.getPlayer().sendMessage("This block　is replaced to DIAMOND BLOCK!");
     		}
     	}
     }
